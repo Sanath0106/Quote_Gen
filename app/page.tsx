@@ -19,7 +19,7 @@ export default function Home() {
       <footer className="mt-8 sm:mt-12 md:mt-16 text-center w-full px-4">
         <p className="footer-text">
           <span className="footer-crafted">
-            Crafted By<span className="footer-heart">👻</span>Sanny
+            Crafted To Inspire, Designed to endure 💫
           </span>
         </p>
       </footer>

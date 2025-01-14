@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next";
 import { Cinzel, Cormorant } from "next/font/google";
 import "./globals.css";
@@ -16,7 +17,7 @@ const cormorant = Cormorant({
 });
 
 export const metadata: Metadata = {
-  title: "Soul Whispers | Daily Inspiration",
+  title: "Soul Whispers",
   description: "Find your daily dose of inspiration with beautiful quotes",
 };
 
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${cinzel.variable} ${cormorant.variable}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
